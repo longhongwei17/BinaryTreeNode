@@ -15,6 +15,7 @@
 		18C519CA1E6BB4BB00819828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C519C81E6BB4BB00819828 /* LaunchScreen.storyboard */; };
 		18C519D51E6BB4BB00819828 /* BinaryTreeNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C519D41E6BB4BB00819828 /* BinaryTreeNodeTests.m */; };
 		18C519E01E6BB4BB00819828 /* BinaryTreeNodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C519DF1E6BB4BB00819828 /* BinaryTreeNodeUITests.m */; };
+		18C519EF1E6BB4DA00819828 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C519EE1E6BB4DA00819828 /* BinaryTreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18C519DB1E6BB4BB00819828 /* BinaryTreeNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryTreeNodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C519DF1E6BB4BB00819828 /* BinaryTreeNodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNodeUITests.m; sourceTree = "<group>"; };
 		18C519E11E6BB4BB00819828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C519ED1E6BB4DA00819828 /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		18C519EE1E6BB4DA00819828 /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				18C519C81E6BB4BB00819828 /* LaunchScreen.storyboard */,
 				18C519CB1E6BB4BB00819828 /* Info.plist */,
 				18C519BA1E6BB4BB00819828 /* Supporting Files */,
+				18C519ED1E6BB4DA00819828 /* BinaryTreeNode.h */,
+				18C519EE1E6BB4DA00819828 /* BinaryTreeNode.m */,
 			);
 			path = BinaryTreeNode;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				18C519C21E6BB4BB00819828 /* ViewController.m in Sources */,
 				18C519BF1E6BB4BB00819828 /* AppDelegate.m in Sources */,
+				18C519EF1E6BB4DA00819828 /* BinaryTreeNode.m in Sources */,
 				18C519BC1E6BB4BB00819828 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
